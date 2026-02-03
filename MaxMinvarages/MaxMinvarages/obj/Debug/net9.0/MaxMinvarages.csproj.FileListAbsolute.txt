@@ -1,0 +1,15 @@
+C:\Users\opilane\source\repos\IKTpe25-TAR--proge-I\MaxMinvarages\MaxMinvarages\bin\Debug\net9.0\MaxMinvarages.exe
+C:\Users\opilane\source\repos\IKTpe25-TAR--proge-I\MaxMinvarages\MaxMinvarages\bin\Debug\net9.0\MaxMinvarages.deps.json
+C:\Users\opilane\source\repos\IKTpe25-TAR--proge-I\MaxMinvarages\MaxMinvarages\bin\Debug\net9.0\MaxMinvarages.runtimeconfig.json
+C:\Users\opilane\source\repos\IKTpe25-TAR--proge-I\MaxMinvarages\MaxMinvarages\bin\Debug\net9.0\MaxMinvarages.dll
+C:\Users\opilane\source\repos\IKTpe25-TAR--proge-I\MaxMinvarages\MaxMinvarages\bin\Debug\net9.0\MaxMinvarages.pdb
+C:\Users\opilane\source\repos\IKTpe25-TAR--proge-I\MaxMinvarages\MaxMinvarages\obj\Debug\net9.0\MaxMinvarages.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\opilane\source\repos\IKTpe25-TAR--proge-I\MaxMinvarages\MaxMinvarages\obj\Debug\net9.0\MaxMinvarages.AssemblyInfoInputs.cache
+C:\Users\opilane\source\repos\IKTpe25-TAR--proge-I\MaxMinvarages\MaxMinvarages\obj\Debug\net9.0\MaxMinvarages.AssemblyInfo.cs
+C:\Users\opilane\source\repos\IKTpe25-TAR--proge-I\MaxMinvarages\MaxMinvarages\obj\Debug\net9.0\MaxMinvarages.csproj.CoreCompileInputs.cache
+C:\Users\opilane\source\repos\IKTpe25-TAR--proge-I\MaxMinvarages\MaxMinvarages\obj\Debug\net9.0\MaxMinvarages.sourcelink.json
+C:\Users\opilane\source\repos\IKTpe25-TAR--proge-I\MaxMinvarages\MaxMinvarages\obj\Debug\net9.0\MaxMinvarages.dll
+C:\Users\opilane\source\repos\IKTpe25-TAR--proge-I\MaxMinvarages\MaxMinvarages\obj\Debug\net9.0\refint\MaxMinvarages.dll
+C:\Users\opilane\source\repos\IKTpe25-TAR--proge-I\MaxMinvarages\MaxMinvarages\obj\Debug\net9.0\MaxMinvarages.pdb
+C:\Users\opilane\source\repos\IKTpe25-TAR--proge-I\MaxMinvarages\MaxMinvarages\obj\Debug\net9.0\MaxMinvarages.genruntimeconfig.cache
+C:\Users\opilane\source\repos\IKTpe25-TAR--proge-I\MaxMinvarages\MaxMinvarages\obj\Debug\net9.0\ref\MaxMinvarages.dll

@@ -1,0 +1,15 @@
+C:\Users\opilane\source\repos\IKTpe25-TAR--proge-I\dictsionary\dictsionary\bin\Debug\net9.0\dictsionary.exe
+C:\Users\opilane\source\repos\IKTpe25-TAR--proge-I\dictsionary\dictsionary\bin\Debug\net9.0\dictsionary.deps.json
+C:\Users\opilane\source\repos\IKTpe25-TAR--proge-I\dictsionary\dictsionary\bin\Debug\net9.0\dictsionary.runtimeconfig.json
+C:\Users\opilane\source\repos\IKTpe25-TAR--proge-I\dictsionary\dictsionary\bin\Debug\net9.0\dictsionary.dll
+C:\Users\opilane\source\repos\IKTpe25-TAR--proge-I\dictsionary\dictsionary\bin\Debug\net9.0\dictsionary.pdb
+C:\Users\opilane\source\repos\IKTpe25-TAR--proge-I\dictsionary\dictsionary\obj\Debug\net9.0\dictsionary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\opilane\source\repos\IKTpe25-TAR--proge-I\dictsionary\dictsionary\obj\Debug\net9.0\dictsionary.AssemblyInfoInputs.cache
+C:\Users\opilane\source\repos\IKTpe25-TAR--proge-I\dictsionary\dictsionary\obj\Debug\net9.0\dictsionary.AssemblyInfo.cs
+C:\Users\opilane\source\repos\IKTpe25-TAR--proge-I\dictsionary\dictsionary\obj\Debug\net9.0\dictsionary.csproj.CoreCompileInputs.cache
+C:\Users\opilane\source\repos\IKTpe25-TAR--proge-I\dictsionary\dictsionary\obj\Debug\net9.0\dictsionary.sourcelink.json
+C:\Users\opilane\source\repos\IKTpe25-TAR--proge-I\dictsionary\dictsionary\obj\Debug\net9.0\dictsionary.dll
+C:\Users\opilane\source\repos\IKTpe25-TAR--proge-I\dictsionary\dictsionary\obj\Debug\net9.0\refint\dictsionary.dll
+C:\Users\opilane\source\repos\IKTpe25-TAR--proge-I\dictsionary\dictsionary\obj\Debug\net9.0\dictsionary.pdb
+C:\Users\opilane\source\repos\IKTpe25-TAR--proge-I\dictsionary\dictsionary\obj\Debug\net9.0\dictsionary.genruntimeconfig.cache
+C:\Users\opilane\source\repos\IKTpe25-TAR--proge-I\dictsionary\dictsionary\obj\Debug\net9.0\ref\dictsionary.dll
