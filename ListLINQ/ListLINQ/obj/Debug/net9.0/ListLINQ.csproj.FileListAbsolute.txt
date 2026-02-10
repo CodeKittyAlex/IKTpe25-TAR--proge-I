@@ -1,0 +1,15 @@
+C:\Users\opilane\source\repos\IKTpe25-TAR--proge-I\ListLINQ\ListLINQ\bin\Debug\net9.0\ListLINQ.exe
+C:\Users\opilane\source\repos\IKTpe25-TAR--proge-I\ListLINQ\ListLINQ\bin\Debug\net9.0\ListLINQ.deps.json
+C:\Users\opilane\source\repos\IKTpe25-TAR--proge-I\ListLINQ\ListLINQ\bin\Debug\net9.0\ListLINQ.runtimeconfig.json
+C:\Users\opilane\source\repos\IKTpe25-TAR--proge-I\ListLINQ\ListLINQ\bin\Debug\net9.0\ListLINQ.dll
+C:\Users\opilane\source\repos\IKTpe25-TAR--proge-I\ListLINQ\ListLINQ\bin\Debug\net9.0\ListLINQ.pdb
+C:\Users\opilane\source\repos\IKTpe25-TAR--proge-I\ListLINQ\ListLINQ\obj\Debug\net9.0\ListLINQ.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\opilane\source\repos\IKTpe25-TAR--proge-I\ListLINQ\ListLINQ\obj\Debug\net9.0\ListLINQ.AssemblyInfoInputs.cache
+C:\Users\opilane\source\repos\IKTpe25-TAR--proge-I\ListLINQ\ListLINQ\obj\Debug\net9.0\ListLINQ.AssemblyInfo.cs
+C:\Users\opilane\source\repos\IKTpe25-TAR--proge-I\ListLINQ\ListLINQ\obj\Debug\net9.0\ListLINQ.csproj.CoreCompileInputs.cache
+C:\Users\opilane\source\repos\IKTpe25-TAR--proge-I\ListLINQ\ListLINQ\obj\Debug\net9.0\ListLINQ.sourcelink.json
+C:\Users\opilane\source\repos\IKTpe25-TAR--proge-I\ListLINQ\ListLINQ\obj\Debug\net9.0\ListLINQ.dll
+C:\Users\opilane\source\repos\IKTpe25-TAR--proge-I\ListLINQ\ListLINQ\obj\Debug\net9.0\refint\ListLINQ.dll
+C:\Users\opilane\source\repos\IKTpe25-TAR--proge-I\ListLINQ\ListLINQ\obj\Debug\net9.0\ListLINQ.pdb
+C:\Users\opilane\source\repos\IKTpe25-TAR--proge-I\ListLINQ\ListLINQ\obj\Debug\net9.0\ListLINQ.genruntimeconfig.cache
+C:\Users\opilane\source\repos\IKTpe25-TAR--proge-I\ListLINQ\ListLINQ\obj\Debug\net9.0\ref\ListLINQ.dll
