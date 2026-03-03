@@ -1,0 +1,15 @@
+C:\Users\opilane\source\repos\IKTpe25-TAR--proge-I\LInqAllAny\LInqAllAny\bin\Debug\net9.0\LInqAllAny.exe
+C:\Users\opilane\source\repos\IKTpe25-TAR--proge-I\LInqAllAny\LInqAllAny\bin\Debug\net9.0\LInqAllAny.deps.json
+C:\Users\opilane\source\repos\IKTpe25-TAR--proge-I\LInqAllAny\LInqAllAny\bin\Debug\net9.0\LInqAllAny.runtimeconfig.json
+C:\Users\opilane\source\repos\IKTpe25-TAR--proge-I\LInqAllAny\LInqAllAny\bin\Debug\net9.0\LInqAllAny.dll
+C:\Users\opilane\source\repos\IKTpe25-TAR--proge-I\LInqAllAny\LInqAllAny\bin\Debug\net9.0\LInqAllAny.pdb
+C:\Users\opilane\source\repos\IKTpe25-TAR--proge-I\LInqAllAny\LInqAllAny\obj\Debug\net9.0\LInqAllAny.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\opilane\source\repos\IKTpe25-TAR--proge-I\LInqAllAny\LInqAllAny\obj\Debug\net9.0\LInqAllAny.AssemblyInfoInputs.cache
+C:\Users\opilane\source\repos\IKTpe25-TAR--proge-I\LInqAllAny\LInqAllAny\obj\Debug\net9.0\LInqAllAny.AssemblyInfo.cs
+C:\Users\opilane\source\repos\IKTpe25-TAR--proge-I\LInqAllAny\LInqAllAny\obj\Debug\net9.0\LInqAllAny.csproj.CoreCompileInputs.cache
+C:\Users\opilane\source\repos\IKTpe25-TAR--proge-I\LInqAllAny\LInqAllAny\obj\Debug\net9.0\LInqAllAny.sourcelink.json
+C:\Users\opilane\source\repos\IKTpe25-TAR--proge-I\LInqAllAny\LInqAllAny\obj\Debug\net9.0\LInqAllAny.dll
+C:\Users\opilane\source\repos\IKTpe25-TAR--proge-I\LInqAllAny\LInqAllAny\obj\Debug\net9.0\refint\LInqAllAny.dll
+C:\Users\opilane\source\repos\IKTpe25-TAR--proge-I\LInqAllAny\LInqAllAny\obj\Debug\net9.0\LInqAllAny.pdb
+C:\Users\opilane\source\repos\IKTpe25-TAR--proge-I\LInqAllAny\LInqAllAny\obj\Debug\net9.0\LInqAllAny.genruntimeconfig.cache
+C:\Users\opilane\source\repos\IKTpe25-TAR--proge-I\LInqAllAny\LInqAllAny\obj\Debug\net9.0\ref\LInqAllAny.dll
