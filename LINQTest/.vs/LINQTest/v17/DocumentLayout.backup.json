@@ -1,0 +1,154 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\opilane\\source\\repos\\IKTpe25-TAR--proge-I\\LINQTest\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B4CAF7E0-80D9-4F0B-8CA2-D5D8E18C779D}|LINQTest\\LINQTest.csproj|c:\\users\\opilane\\source\\repos\\iktpe25-tar--proge-i\\linqtest\\linqtest\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CAF7E0-80D9-4F0B-8CA2-D5D8E18C779D}|LINQTest\\LINQTest.csproj|solutionrelative:linqtest\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4CAF7E0-80D9-4F0B-8CA2-D5D8E18C779D}|LINQTest\\LINQTest.csproj|c:\\users\\opilane\\source\\repos\\iktpe25-tar--proge-i\\linqtest\\linqtest\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CAF7E0-80D9-4F0B-8CA2-D5D8E18C779D}|LINQTest\\LINQTest.csproj|solutionrelative:linqtest\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4CAF7E0-80D9-4F0B-8CA2-D5D8E18C779D}|LINQTest\\LINQTest.csproj|c:\\users\\opilane\\source\\repos\\iktpe25-tar--proge-i\\linqtest\\linqtest\\orders.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CAF7E0-80D9-4F0B-8CA2-D5D8E18C779D}|LINQTest\\LINQTest.csproj|solutionrelative:linqtest\\orders.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4CAF7E0-80D9-4F0B-8CA2-D5D8E18C779D}|LINQTest\\LINQTest.csproj|c:\\users\\opilane\\source\\repos\\iktpe25-tar--proge-i\\linqtest\\linqtest\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CAF7E0-80D9-4F0B-8CA2-D5D8E18C779D}|LINQTest\\LINQTest.csproj|solutionrelative:linqtest\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 391,
+          "SelectedChildIndex": 12,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{26341fe2-71dd-46fd-bb1b-2e51a92a0d64}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "orders.cs",
+              "DocumentMoniker": "C:\\Users\\opilane\\source\\repos\\IKTpe25-TAR--proge-I\\LINQTest\\LINQTest\\orders.cs",
+              "RelativeDocumentMoniker": "LINQTest\\orders.cs",
+              "ToolTip": "C:\\Users\\opilane\\source\\repos\\IKTpe25-TAR--proge-I\\LINQTest\\LINQTest\\orders.cs",
+              "RelativeToolTip": "LINQTest\\orders.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-12T13:17:04.713Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "client.cs",
+              "DocumentMoniker": "C:\\Users\\opilane\\source\\repos\\IKTpe25-TAR--proge-I\\LINQTest\\LINQTest\\client.cs",
+              "RelativeDocumentMoniker": "LINQTest\\client.cs",
+              "ToolTip": "C:\\Users\\opilane\\source\\repos\\IKTpe25-TAR--proge-I\\LINQTest\\LINQTest\\client.cs",
+              "RelativeToolTip": "LINQTest\\client.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-12T13:14:42.744Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "product.cs",
+              "DocumentMoniker": "C:\\Users\\opilane\\source\\repos\\IKTpe25-TAR--proge-I\\LINQTest\\LINQTest\\product.cs",
+              "RelativeDocumentMoniker": "LINQTest\\product.cs",
+              "ToolTip": "C:\\Users\\opilane\\source\\repos\\IKTpe25-TAR--proge-I\\LINQTest\\LINQTest\\product.cs",
+              "RelativeToolTip": "LINQTest\\product.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAowCEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-12T13:07:33.236Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\opilane\\source\\repos\\IKTpe25-TAR--proge-I\\LINQTest\\LINQTest\\Program.cs",
+              "RelativeDocumentMoniker": "LINQTest\\Program.cs",
+              "ToolTip": "C:\\Users\\opilane\\source\\repos\\IKTpe25-TAR--proge-I\\LINQTest\\LINQTest\\Program.cs*",
+              "RelativeToolTip": "LINQTest\\Program.cs*",
+              "ViewState": "AgIAAAQAAAAAAAAAAAA8wB0AAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-12T13:02:37.183Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 84,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:2:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:3:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:4:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

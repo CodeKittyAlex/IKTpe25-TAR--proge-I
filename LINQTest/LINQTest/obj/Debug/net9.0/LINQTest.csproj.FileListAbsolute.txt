@@ -1,0 +1,15 @@
+C:\Users\opilane\source\repos\IKTpe25-TAR--proge-I\LINQTest\LINQTest\bin\Debug\net9.0\LINQTest.exe
+C:\Users\opilane\source\repos\IKTpe25-TAR--proge-I\LINQTest\LINQTest\bin\Debug\net9.0\LINQTest.deps.json
+C:\Users\opilane\source\repos\IKTpe25-TAR--proge-I\LINQTest\LINQTest\bin\Debug\net9.0\LINQTest.runtimeconfig.json
+C:\Users\opilane\source\repos\IKTpe25-TAR--proge-I\LINQTest\LINQTest\bin\Debug\net9.0\LINQTest.dll
+C:\Users\opilane\source\repos\IKTpe25-TAR--proge-I\LINQTest\LINQTest\bin\Debug\net9.0\LINQTest.pdb
+C:\Users\opilane\source\repos\IKTpe25-TAR--proge-I\LINQTest\LINQTest\obj\Debug\net9.0\LINQTest.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\opilane\source\repos\IKTpe25-TAR--proge-I\LINQTest\LINQTest\obj\Debug\net9.0\LINQTest.AssemblyInfoInputs.cache
+C:\Users\opilane\source\repos\IKTpe25-TAR--proge-I\LINQTest\LINQTest\obj\Debug\net9.0\LINQTest.AssemblyInfo.cs
+C:\Users\opilane\source\repos\IKTpe25-TAR--proge-I\LINQTest\LINQTest\obj\Debug\net9.0\LINQTest.csproj.CoreCompileInputs.cache
+C:\Users\opilane\source\repos\IKTpe25-TAR--proge-I\LINQTest\LINQTest\obj\Debug\net9.0\LINQTest.sourcelink.json
+C:\Users\opilane\source\repos\IKTpe25-TAR--proge-I\LINQTest\LINQTest\obj\Debug\net9.0\LINQTest.dll
+C:\Users\opilane\source\repos\IKTpe25-TAR--proge-I\LINQTest\LINQTest\obj\Debug\net9.0\refint\LINQTest.dll
+C:\Users\opilane\source\repos\IKTpe25-TAR--proge-I\LINQTest\LINQTest\obj\Debug\net9.0\LINQTest.pdb
+C:\Users\opilane\source\repos\IKTpe25-TAR--proge-I\LINQTest\LINQTest\obj\Debug\net9.0\LINQTest.genruntimeconfig.cache
+C:\Users\opilane\source\repos\IKTpe25-TAR--proge-I\LINQTest\LINQTest\obj\Debug\net9.0\ref\LINQTest.dll
