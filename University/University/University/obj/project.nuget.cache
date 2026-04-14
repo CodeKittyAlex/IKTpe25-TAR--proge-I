@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "FDcNBYzInxo=",
+  "dgSpecHash": "lPJZRh90UOs=",
   "success": true,
-  "projectFilePath": "C:\\Users\\opilane\\source\\repos\\Shop_TAR\\IKTpe25-TAR--proge-I\\University\\University\\University\\University.csproj",
+  "projectFilePath": "C:\\Users\\opilane\\source\\repos\\IKTpe25-TAR--proge-I\\University\\University\\University\\University.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\opilane\\.nuget\\packages\\azure.core\\1.47.1\\azure.core.1.47.1.nupkg.sha512",
     "C:\\Users\\opilane\\.nuget\\packages\\azure.identity\\1.14.2\\azure.identity.1.14.2.nupkg.sha512",
