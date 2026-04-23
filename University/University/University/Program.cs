@@ -2,6 +2,7 @@ using Microsoft.EntityFrameworkCore;
 using University.Data;
 using Microsoft.Extensions.DependencyInjection;
 
+
 namespace University
 {
     public class Program
@@ -13,10 +14,8 @@ namespace University
             builder.Services.AddDbContext<UniversityContext>(options =>
                 options.UseSqlServer(builder.Configuration.GetConnectionString("UniversityContext")));
 
-
-
-            //add databases exception filter for developnemt enviorments
-            //this will show detaieled db errors during developments
+            // Add database exception filter for development environment
+            // This will show detailed database errors during development
             builder.Services.AddDatabaseDeveloperPageExceptionFilter();
 
             // Add services to the container.
@@ -24,7 +23,7 @@ namespace University
 
             var app = builder.Build();
 
-            //create DB if it doesn't exist and seed initial data
+            // create DB if it doesn't exist and seed initial data
             CreateDbIfNotExists(app);
 
             // Configure the HTTP request pipeline.
@@ -49,21 +48,22 @@ namespace University
             app.Run();
         }
 
-
+        //luuakse andmebaas, kui see veel ei eksisteeri
+        //ja sisestab sinna algandmed
         private static void CreateDbIfNotExists(IHost host)
         {
-            using(var scope = host.Services.CreateScope())
+            using (var scope = host.Services.CreateScope())
             {
                 var services = scope.ServiceProvider;
                 try
                 {
                     var context = services.GetRequiredService<UniversityContext>();
-                    DbInitalizer.Initialize(context);
+                    DbInitializer.Initialize(context);
                 }
-                catch(Exception ex)
+                catch (Exception ex)
                 {
                     var logger = services.GetRequiredService<ILogger<Program>>();
-                    logger.LogError(ex, "an err occurred creating the db");
+                    logger.LogError(ex, "An error occurred creating the DB.");
                 }
             }
         }
