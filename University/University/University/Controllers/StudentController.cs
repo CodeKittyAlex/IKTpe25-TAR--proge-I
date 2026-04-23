@@ -127,9 +127,6 @@ namespace University.Controllers
         public async Task<IActionResult> Update(int id)
         {
             var student = await _context.Students
-                .Include(s => s.Enrollments)
-                    .ThenInclude(e => e.Course)
-                .AsNoTracking()
                 .FirstOrDefaultAsync(m => m.Id == id);
 
             if (student == null)
