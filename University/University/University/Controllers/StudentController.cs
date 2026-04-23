@@ -122,9 +122,30 @@ namespace University.Controllers
                 //pärast salvestamist suuname kasutaja tagasi Index vaatesse
                 return RedirectToAction(nameof(Index));
             }
+            return View(vm);       
+        }
+        public async Task<IActionResult> Update(int id)
+        {
+            var student = await _context.Students
+                .Include(s => s.Enrollments)
+                    .ThenInclude(e => e.Course)
+                .AsNoTracking()
+                .FirstOrDefaultAsync(m => m.Id == id);
+
+            if (student == null)
+            {
+                return NotFound();
+            }
+
+            var vm = new StudentUpdateViewModel
+            {
+                   Id = student.Id,
+                   FirstMidName = student.FirstMidName,
+                   LastName = student.LastName,
+                   EnrollmentDate = student.EnrollmentDate
+            };
+
             return View(vm);
-
-
         }
     }
 }
