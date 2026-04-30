@@ -6,6 +6,16 @@
 
 <h2>Student Index</h2>
 
+<form asp-action="index" method="get">
+    <div class="form-actions no-color">
+        <p>
+            <label>Find name: <input type="text" name="SearchString" value="@ViewData["CurrentFilter"]" /></label>
+            <input type="submit" value="Search" class="btn btn-default" />
+            <a asp-action="index">back to list</a>
+        </p>
+    </div>
+</form>
+
 <p>
     <a asp-action="Create">Create New</a>
 </p>

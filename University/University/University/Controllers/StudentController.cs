@@ -18,10 +18,11 @@ namespace University.Controllers
             _context = context;
         }
 
-        public async Task<IActionResult> Index(string sortOrder)
+        public async Task<IActionResult> Index(string sortOrder, string SearchString)
         {
             ViewData["NameSortParm"] = String.IsNullOrEmpty(sortOrder) ? "name_desc" : "";
             ViewData["DateSortParm"] = sortOrder == "Date" ? "date_desc" : "Date";
+            ViewData["CurrentFilter"] = SearchString;
 
             //var students = from s in _context.Students
             //select s;
@@ -40,6 +41,12 @@ namespace University.Controllers
                     //miks kasutame ToListAsync()?
                     //kui me kasutame ToListAsync(), siis me saame tulemuse listina
                 }).ToListAsync();
+
+            if (!string.IsNullOrEmpty(SearchString))
+            {
+                students = students.Where(s => s.LastName.Contains(SearchString)
+                                    || s.FirstMidName.Contains(SearchString)).ToList();
+            }
 
             switch (sortOrder)
             {
