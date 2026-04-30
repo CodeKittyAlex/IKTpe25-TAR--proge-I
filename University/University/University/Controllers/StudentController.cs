@@ -18,14 +18,20 @@ namespace University.Controllers
             _context = context;
         }
 
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(string sortOrder)
         {
+            ViewData["NameSortParm"] = String.IsNullOrEmpty(sortOrder) ? "name_desc" : "";
+            ViewData["DateSortParm"] = sortOrder == "Date" ? "date_desc" : "Date";
+
+            //var students = from s in _context.Students
+            //select s;
+
             //leiame kõik student'id ja teisendame need StudentIndexViewModel'iks
             //miks peab kasutama await?
             //kui me kasutame await, siis me ootame kuni päring on lõpetatud
             //ja saame tulemuse, enne kui me jätkame koodi täitmist
-            var result = await _context.Students
-                .Select(s => new ViewModel.StudentIndexViewModel
+            var students = await _context.Students
+                .Select(s => new StudentIndexViewModel
                 {
                     Id = s.Id,
                     LastName = s.LastName,
@@ -35,7 +41,27 @@ namespace University.Controllers
                     //kui me kasutame ToListAsync(), siis me saame tulemuse listina
                 }).ToListAsync();
 
-            return View(result);
+            switch (sortOrder)
+            {
+                case "name_desc":
+                    students = students.OrderByDescending(s => s.LastName).ToList();
+                    break;
+
+                case "Date":
+                    students = students.OrderBy(s => s.EnrollmentDate).ToList();
+                    break;
+
+                case "date_desc":
+                    students = students.OrderByDescending(s => s.EnrollmentDate).ToList();
+                    break;
+
+                default:
+                    students = students.OrderBy(s => s.LastName).ToList();
+                    break;
+            }
+
+
+            return View(students);
         }
 
         public async Task<IActionResult> Details(int? id)
@@ -172,6 +198,7 @@ namespace University.Controllers
                 return NotFound();
             }
 
+
             var student = await _context.Students
                 .Include(s => s.Enrollments)
                     .ThenInclude(e => e.Course)
@@ -184,7 +211,6 @@ namespace University.Controllers
                 LastName = student.LastName,
                 FirstMidName = student.FirstMidName,
                 EnrollmentDate = student.EnrollmentDate,
-
                 EnrollmentsVm = (student.Enrollments ?? Enumerable.Empty<Enrollment>())
                     .Select(x => new EnrollmentViewModel
                     {
@@ -205,6 +231,33 @@ namespace University.Controllers
             }
 
             return View(vm);
+        }
+
+
+        //tuleb teha ankeedi kustutamise nupp
+        public async Task<IActionResult> DeletePost(int id)
+        {
+            try
+            {
+                Student delete = new Student()
+                {
+                    Id = id,
+                };
+                //teine variant
+                //var delete = await _context.Students
+                //    .FirstOrDefaultAsync(x => x.Id == id);
+
+                _context.Students.Remove(delete);
+                await _context.SaveChangesAsync();
+                return RedirectToAction(nameof(Index));
+            }
+            catch (DbUpdateException)
+            {
+                return RedirectToAction(nameof(Delete), new { id = id, saveChangesError = true });
+                throw;
+            }
+
+            return RedirectToAction(nameof(Delete));
         }
     }
 }
