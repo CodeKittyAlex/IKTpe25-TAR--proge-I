@@ -2,6 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using University.Data;
 using University.Models;
+using University.Utilities;
 using University.ViewModel;
 
 namespace University.Controllers
@@ -18,20 +19,30 @@ namespace University.Controllers
             _context = context;
         }
 
-        public async Task<IActionResult> Index(string sortOrder, string SearchString)
+        public async Task<IActionResult> Index(string sortOrder, string searchString, int? pageNumber, string currentFilter)
         {
-            ViewData["NameSortParm"] = String.IsNullOrEmpty(sortOrder) ? "name_desc" : "";
+
+            ViewData["NameSortParm"] = string.IsNullOrEmpty(sortOrder) ? "name_desc" : "";
             ViewData["DateSortParm"] = sortOrder == "Date" ? "date_desc" : "Date";
-            ViewData["CurrentFilter"] = SearchString;
+            ViewData["CurrentFilter"] = searchString;
+
+            if (searchString != null)
+            {
+                pageNumber = 1;
+            }
+            else
+            {
+                searchString = currentFilter;
+            }
 
             //var students = from s in _context.Students
-            //select s;
+            //               select s;
 
             //leiame kõik student'id ja teisendame need StudentIndexViewModel'iks
             //miks peab kasutama await?
             //kui me kasutame await, siis me ootame kuni päring on lõpetatud
             //ja saame tulemuse, enne kui me jätkame koodi täitmist
-            var students = await _context.Students
+            var students = _context.Students
                 .Select(s => new StudentIndexViewModel
                 {
                     Id = s.Id,
@@ -40,35 +51,38 @@ namespace University.Controllers
                     EnrollmentDate = s.EnrollmentDate
                     //miks kasutame ToListAsync()?
                     //kui me kasutame ToListAsync(), siis me saame tulemuse listina
-                }).ToListAsync();
+                });
 
-            if (!string.IsNullOrEmpty(SearchString))
+            if (!string.IsNullOrEmpty(searchString))
             {
-                students = students.Where(s => s.LastName.Contains(SearchString)
-                                    || s.FirstMidName.Contains(SearchString)).ToList();
+                students = students.Where(s => s.LastName.Contains(searchString)
+                                    || s.FirstMidName.Contains(searchString));
             }
 
             switch (sortOrder)
             {
                 case "name_desc":
-                    students = students.OrderByDescending(s => s.LastName).ToList();
+                    students = students.OrderByDescending(s => s.LastName);
                     break;
 
                 case "Date":
-                    students = students.OrderBy(s => s.EnrollmentDate).ToList();
+                    students = students.OrderBy(s => s.EnrollmentDate);
                     break;
 
                 case "date_desc":
-                    students = students.OrderByDescending(s => s.EnrollmentDate).ToList();
+                    students = students.OrderByDescending(s => s.EnrollmentDate);
                     break;
 
                 default:
-                    students = students.OrderBy(s => s.LastName).ToList();
+                    students = students.OrderBy(s => s.LastName);
                     break;
             }
 
+            var result = await students.ToListAsync();
 
-            return View(students);
+            int pageSize = 3;
+
+            return View(await PaginatedList<StudentIndexViewModel>.CreateAsync(students.AsNoTracking(), pageNumber ?? 1, pageSize));
         }
 
         public async Task<IActionResult> Details(int? id)
@@ -83,9 +97,9 @@ namespace University.Controllers
             var student = await _context.Students
                 //Include lubab objekti kasutada objekti sees
                 .Include(s => s.Enrollments)
-                //kui tahad uuesti objekti kasutada objekti sees, siis kasutad ThenInclude
+                    //kui tahad uuesti objekti kasutada objekti sees, siis kasutad ThenInclude
                     .ThenInclude(e => e.Course)
-                    //andmeid ei salvestata vahemällu ja ei jälgita
+                //andmeid ei salvestata vahemällu ja ei jälgita
                 .AsNoTracking()
                 //tagastab esimese elemendi andmetest, mis on tingimuses välja toodud
                 .FirstOrDefaultAsync(m => m.Id == id);
@@ -139,7 +153,7 @@ namespace University.Controllers
         public async Task<IActionResult> Create(StudentCreateViewModel vm)
         {
             //kui model on valiidne, siis loome uue student'i ja salvestame selle andmebaasi
-            if (ModelState.IsValid)
+            if (!ModelState.IsValid)
             {
                 var student = new Models.Student
                 {
@@ -155,13 +169,16 @@ namespace University.Controllers
                 //pärast salvestamist suuname kasutaja tagasi Index vaatesse
                 return RedirectToAction(nameof(Index));
             }
-            return View(vm);       
+            return View(vm);
         }
+
+        [HttpGet]
         public async Task<IActionResult> Update(int id)
         {
             var student = await _context.Students
                 .FirstOrDefaultAsync(m => m.Id == id);
 
+            //kui sutudent on null, siis on NotFound()
             if (student == null)
             {
                 return NotFound();
@@ -169,14 +186,16 @@ namespace University.Controllers
 
             var vm = new StudentUpdateViewModel
             {
-                   Id = student.Id,
-                   FirstMidName = student.FirstMidName,
-                   LastName = student.LastName,
-                   EnrollmentDate = student.EnrollmentDate
+                Id = student.Id,
+                FirstMidName = student.FirstMidName,
+                LastName = student.LastName,
+                EnrollmentDate = student.EnrollmentDate
             };
 
+            //tuleb teha domaini modelist andmete ülekanne view modeli omasse
             return View(vm);
         }
+
         [HttpPost]
         public async Task<IActionResult> Update(StudentUpdateViewModel vm)
         {
@@ -189,14 +208,23 @@ namespace University.Controllers
                     FirstMidName = vm.FirstMidName,
                     EnrollmentDate = vm.EnrollmentDate
                 };
+
+                var studentUpdate = student.Id;
+                //lisame student'i andmebaasi ja salvestame muudatused
                 _context.Update(student);
+                //miks kasutame await?
+                //kui me kasutame await, siis me ootame kuni salvestamine on lõpetatud
                 await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(Update));
+                //pärast salvestamist suuname kasutaja tagasi Index vaatesse
+
+                //Kui andmed on uuendatud, siis suunab tagasi Update vaatesse, kus saab kohe uuesti andmeid uuendada.
+                //Hetkel suunab Indexi vaatesse peale uuendust
+                return RedirectToAction(nameof(Update), new { id = studentUpdate });
             }
 
-
-            return RedirectToAction(nameof(Update));
+            return RedirectToAction(nameof(Index));
         }
+
         [HttpGet]
         public async Task<IActionResult> Delete(int? id)
         {
