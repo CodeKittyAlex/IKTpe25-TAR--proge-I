@@ -1,10 +1,13 @@
-﻿using System.ComponentModel.DataAnnotations.Schema;
+﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Security.Cryptography.X509Certificates;
 
 namespace University.Models
 {
+
     public class Department
     {
+        [Key]
         public int DepartmentId { get; set; }
         public string Name { get; set; }
 
