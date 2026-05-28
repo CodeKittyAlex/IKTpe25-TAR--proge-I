@@ -1,4 +1,4 @@
-﻿@model IEnumerable<University.ViewModel.CoursesIndexViewModel>
+﻿@model IEnumerable<University.ViewModel.CourseIndexViewModel>
 
 @{
     ViewData["Title"] = "Course Index";
@@ -23,7 +23,7 @@
                 @Html.DisplayNameFor(Model => Model.Credits)
             </th>
             <th>
-                @Html.DisplayNameFor(Model => Model.Departments)
+                @Html.DisplayNameFor(Model => Model.Department)
             </th>
         </tr>
     </thead>
@@ -41,7 +41,7 @@
                     @Html.DisplayFor(ModelItem => item.Credits)
                 </td>
                 <td>
-                    @Html.DisplayFor(ModelItem => item.Departments.Name)
+                    @Html.DisplayFor(ModelItem => item.Department.DepartmentName)
                 </td>
                 <td>
                     <a asp-action="Edit" asp-route-id="@item.CourseId">Edit</a>
