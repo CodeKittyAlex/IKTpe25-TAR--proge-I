@@ -44,7 +44,7 @@
               "RelativeDocumentMoniker": "University\\Controllers\\CourseController.cs",
               "ToolTip": "C:\\Users\\opilane\\source\\repos\\IKTpe25-TAR--proge-I\\University\\University\\University\\Controllers\\CourseController.cs",
               "RelativeToolTip": "University\\Controllers\\CourseController.cs",
-              "ViewState": "AgIAAFAAAAAAAAAAAAAAAHcAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAE0AAAAAAAAAAAAAAHMAAABCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-02T11:52:50.858Z",
               "EditorCaption": ""
@@ -59,8 +59,7 @@
               "RelativeToolTip": "University\\ViewModel\\CourseUpdateViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-02T11:52:39.691Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-02T11:52:39.691Z"
             },
             {
               "$type": "Document",
@@ -72,8 +71,7 @@
               "RelativeToolTip": "University\\Views\\course\\Update.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-06-02T11:52:29.258Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-02T11:52:29.258Z"
             },
             {
               "$type": "Document",
@@ -85,8 +83,7 @@
               "RelativeToolTip": "University\\ViewModel\\CourseCreateViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-02T11:36:04.891Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-02T11:36:04.891Z"
             },
             {
               "$type": "Document",
@@ -98,8 +95,7 @@
               "RelativeToolTip": "University\\Views\\course\\Create.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-06-02T11:33:58.113Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-02T11:33:58.113Z"
             }
           ]
         }
