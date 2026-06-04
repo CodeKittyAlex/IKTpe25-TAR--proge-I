@@ -88,6 +88,7 @@ namespace University.Controllers
             PopulateDepartmentDropDownList();
             return View();
         }
+
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create(CourseCreateViewModel vm)
@@ -97,42 +98,43 @@ namespace University.Controllers
                 CourseId = vm.CourseId,
                 Title = vm.Title,
                 Credits = vm.Credits,
-                Departments = new Department
-                {
-                    Name = vm.Department.Name
-                }
+                DepartmentId = vm.DepartmentId,
             };
             _context.Add(course);
             await _context.SaveChangesAsync();
-                
+
             PopulateDepartmentDropDownList(course.DepartmentId);
             return RedirectToAction(nameof(Index));
         }
-        public async Task<IActionResult> Details()
+
+        public async Task<IActionResult> Details(int? id)
         {
             if (id == null)
             {
                 return NotFound();
             }
 
-            var Course = await _context.Courses
+            var course = await _context.Courses
                 .Include(c => c.Departments)
                 .Where(c => c.CourseId == id)
-                .select(c => new CourseDetailsViewModel
+                .Select(c => new CourseDetailsViewModel
                 {
                     CourseId = c.CourseId,
                     Credits = c.Credits,
                     Title = c.Title,
+                    DepartmentId = c.DepartmentId,
                     Department = new CourseDepartmentIndexViewModel
                     {
                         DepartmentName = c.Departments.Name
                     }
                 })
                 .FirstOrDefaultAsync();
-
-            if ()
+            if (course == null)
+            {
+                return NotFound();
+            }
+            return View(course);
         }
-            
 
         private void PopulateDepartmentDropDownList(object selectedDepartment = null)
         {
