@@ -15,6 +15,7 @@ namespace University.Data
         public DbSet<Instructor> Instructors { get; set; }
         public DbSet<CourseAssignment> CourseAssignments { get; set; }
         public DbSet<OffficeAssignment> OffficeAssignments { get; set; }
+        public DbSet<FileToApi> FileToApis { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -25,6 +26,7 @@ namespace University.Data
             modelBuilder.Entity<Instructor>().ToTable("Instructor");
             modelBuilder.Entity<CourseAssignment>().ToTable("CourseAssignment");
             modelBuilder.Entity<OffficeAssignment>().ToTable("OfficeAssignment");
+            modelBuilder.Entity<FileToApi>().ToTable("FileToApi");
 
             modelBuilder.Entity<CourseAssignment>().HasKey(c => new { c.CourseId, c.InstructorId });
         }

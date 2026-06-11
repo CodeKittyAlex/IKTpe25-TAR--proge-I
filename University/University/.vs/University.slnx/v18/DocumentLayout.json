@@ -1,34 +1,38 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "F:\\code\\IKTpe25-TAR--proge-I\\University\\University\\",
+  "WorkspaceRootPath": "C:\\Users\\opilane\\source\\repos\\IKTpe25-TAR--proge-I\\University\\University\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D0CAF6E4-AF12-3156-5A29-33EA07FAB416}|University\\University.csproj|f:\\code\\iktpe25-tar--proge-i\\university\\university\\university\\controllers\\coursecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D0CAF6E4-AF12-3156-5A29-33EA07FAB416}|University\\University.csproj|c:\\users\\opilane\\source\\repos\\iktpe25-tar--proge-i\\university\\university\\university\\services\\fileservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0CAF6E4-AF12-3156-5A29-33EA07FAB416}|University\\University.csproj|solutionrelative:university\\services\\fileservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0CAF6E4-AF12-3156-5A29-33EA07FAB416}|University\\University.csproj|c:\\users\\opilane\\source\\repos\\iktpe25-tar--proge-i\\university\\university\\university\\controllers\\coursecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D0CAF6E4-AF12-3156-5A29-33EA07FAB416}|University\\University.csproj|solutionrelative:university\\controllers\\coursecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D0CAF6E4-AF12-3156-5A29-33EA07FAB416}|University\\University.csproj|f:\\code\\iktpe25-tar--proge-i\\university\\university\\university\\views\\course\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D0CAF6E4-AF12-3156-5A29-33EA07FAB416}|University\\University.csproj|solutionrelative:university\\views\\course\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{D0CAF6E4-AF12-3156-5A29-33EA07FAB416}|University\\University.csproj|c:\\users\\opilane\\source\\repos\\iktpe25-tar--proge-i\\university\\university\\university\\servicesinterface\\ifileservises.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0CAF6E4-AF12-3156-5A29-33EA07FAB416}|University\\University.csproj|solutionrelative:university\\servicesinterface\\ifileservises.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D0CAF6E4-AF12-3156-5A29-33EA07FAB416}|University\\University.csproj|f:\\code\\iktpe25-tar--proge-i\\university\\university\\university\\views\\course\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D0CAF6E4-AF12-3156-5A29-33EA07FAB416}|University\\University.csproj|solutionrelative:university\\views\\course\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{D0CAF6E4-AF12-3156-5A29-33EA07FAB416}|University\\University.csproj|c:\\users\\opilane\\source\\repos\\iktpe25-tar--proge-i\\university\\university\\university\\dto\\filetoapidto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0CAF6E4-AF12-3156-5A29-33EA07FAB416}|University\\University.csproj|solutionrelative:university\\dto\\filetoapidto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D0CAF6E4-AF12-3156-5A29-33EA07FAB416}|University\\University.csproj|f:\\code\\iktpe25-tar--proge-i\\university\\university\\university\\viewmodel\\courseupdateviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D0CAF6E4-AF12-3156-5A29-33EA07FAB416}|University\\University.csproj|c:\\users\\opilane\\source\\repos\\iktpe25-tar--proge-i\\university\\university\\university\\viewmodel\\imageviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0CAF6E4-AF12-3156-5A29-33EA07FAB416}|University\\University.csproj|solutionrelative:university\\viewmodel\\imageviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0CAF6E4-AF12-3156-5A29-33EA07FAB416}|University\\University.csproj|c:\\users\\opilane\\source\\repos\\iktpe25-tar--proge-i\\university\\university\\university\\models\\filetoapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0CAF6E4-AF12-3156-5A29-33EA07FAB416}|University\\University.csproj|solutionrelative:university\\models\\filetoapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0CAF6E4-AF12-3156-5A29-33EA07FAB416}|University\\University.csproj|c:\\users\\opilane\\source\\repos\\iktpe25-tar--proge-i\\university\\university\\university\\dto\\coursedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0CAF6E4-AF12-3156-5A29-33EA07FAB416}|University\\University.csproj|solutionrelative:university\\dto\\coursedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0CAF6E4-AF12-3156-5A29-33EA07FAB416}|University\\University.csproj|c:\\users\\opilane\\source\\repos\\iktpe25-tar--proge-i\\university\\university\\university\\viewmodel\\courseupdateviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D0CAF6E4-AF12-3156-5A29-33EA07FAB416}|University\\University.csproj|solutionrelative:university\\viewmodel\\courseupdateviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D0CAF6E4-AF12-3156-5A29-33EA07FAB416}|University\\University.csproj|f:\\code\\iktpe25-tar--proge-i\\university\\university\\university\\viewmodel\\coursecreateviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D0CAF6E4-AF12-3156-5A29-33EA07FAB416}|University\\University.csproj|solutionrelative:university\\viewmodel\\coursecreateviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D0CAF6E4-AF12-3156-5A29-33EA07FAB416}|University\\University.csproj|f:\\code\\iktpe25-tar--proge-i\\university\\university\\university\\views\\course\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D0CAF6E4-AF12-3156-5A29-33EA07FAB416}|University\\University.csproj|solutionrelative:university\\views\\course\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D0CAF6E4-AF12-3156-5A29-33EA07FAB416}|University\\University.csproj|f:\\code\\iktpe25-tar--proge-i\\university\\university\\university\\viewmodel\\coursedetailsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D0CAF6E4-AF12-3156-5A29-33EA07FAB416}|University\\University.csproj|solutionrelative:university\\viewmodel\\coursedetailsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,43 +42,73 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "F:\\code\\IKTpe25-TAR--proge-I\\University\\University\\University\\Views\\course\\Details.cshtml",
-              "RelativeDocumentMoniker": "University\\Views\\course\\Details.cshtml",
-              "ToolTip": "F:\\code\\IKTpe25-TAR--proge-I\\University\\University\\University\\Views\\course\\Details.cshtml",
-              "RelativeToolTip": "University\\Views\\course\\Details.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-06-02T12:36:49.931Z",
+              "DocumentIndex": 2,
+              "Title": "IFileservises.cs",
+              "DocumentMoniker": "C:\\Users\\opilane\\source\\repos\\IKTpe25-TAR--proge-I\\University\\University\\University\\ServicesInterface\\IFileservises.cs",
+              "RelativeDocumentMoniker": "University\\ServicesInterface\\IFileservises.cs",
+              "ToolTip": "C:\\Users\\opilane\\source\\repos\\IKTpe25-TAR--proge-I\\University\\University\\University\\ServicesInterface\\IFileservises.cs",
+              "RelativeToolTip": "University\\ServicesInterface\\IFileservises.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-11T08:29:49.197Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "CourseDetailsViewModel.cs",
-              "DocumentMoniker": "F:\\code\\IKTpe25-TAR--proge-I\\University\\University\\University\\ViewModel\\CourseDetailsViewModel.cs",
-              "RelativeDocumentMoniker": "University\\ViewModel\\CourseDetailsViewModel.cs",
-              "ToolTip": "F:\\code\\IKTpe25-TAR--proge-I\\University\\University\\University\\ViewModel\\CourseDetailsViewModel.cs",
-              "RelativeToolTip": "University\\ViewModel\\CourseDetailsViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABHAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "FileToApiDto.cs",
+              "DocumentMoniker": "C:\\Users\\opilane\\source\\repos\\IKTpe25-TAR--proge-I\\University\\University\\University\\Dto\\FileToApiDto.cs",
+              "RelativeDocumentMoniker": "University\\Dto\\FileToApiDto.cs",
+              "ToolTip": "C:\\Users\\opilane\\source\\repos\\IKTpe25-TAR--proge-I\\University\\University\\University\\Dto\\FileToApiDto.cs",
+              "RelativeToolTip": "University\\Dto\\FileToApiDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-02T12:32:12.16Z",
+              "WhenOpened": "2026-06-11T08:15:21.995Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "FileServices.cs",
+              "DocumentMoniker": "C:\\Users\\opilane\\source\\repos\\IKTpe25-TAR--proge-I\\University\\University\\University\\Services\\FileServices.cs",
+              "RelativeDocumentMoniker": "University\\Services\\FileServices.cs",
+              "ToolTip": "C:\\Users\\opilane\\source\\repos\\IKTpe25-TAR--proge-I\\University\\University\\University\\Services\\FileServices.cs",
+              "RelativeToolTip": "University\\Services\\FileServices.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAowDEAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-11T07:24:31.827Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CourseDto.cs",
+              "DocumentMoniker": "C:\\Users\\opilane\\source\\repos\\IKTpe25-TAR--proge-I\\University\\University\\University\\Dto\\CourseDto.cs",
+              "RelativeDocumentMoniker": "University\\Dto\\CourseDto.cs",
+              "ToolTip": "C:\\Users\\opilane\\source\\repos\\IKTpe25-TAR--proge-I\\University\\University\\University\\Dto\\CourseDto.cs",
+              "RelativeToolTip": "University\\Dto\\CourseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAUAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-11T07:23:41.044Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "CourseController.cs",
-              "DocumentMoniker": "F:\\code\\IKTpe25-TAR--proge-I\\University\\University\\University\\Controllers\\CourseController.cs",
+              "DocumentMoniker": "C:\\Users\\opilane\\source\\repos\\IKTpe25-TAR--proge-I\\University\\University\\University\\Controllers\\CourseController.cs",
               "RelativeDocumentMoniker": "University\\Controllers\\CourseController.cs",
-              "ToolTip": "F:\\code\\IKTpe25-TAR--proge-I\\University\\University\\University\\Controllers\\CourseController.cs",
+              "ToolTip": "C:\\Users\\opilane\\source\\repos\\IKTpe25-TAR--proge-I\\University\\University\\University\\Controllers\\CourseController.cs",
               "RelativeToolTip": "University\\Controllers\\CourseController.cs",
-              "ViewState": "AgIAAHoAAAAAAAAAAAAYwFoAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAFQAAAAAAAAAAAAIwF8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-02T11:52:50.858Z",
               "EditorCaption": ""
@@ -82,54 +116,40 @@
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "Update.cshtml",
-              "DocumentMoniker": "F:\\code\\IKTpe25-TAR--proge-I\\University\\University\\University\\Views\\course\\Update.cshtml",
-              "RelativeDocumentMoniker": "University\\Views\\course\\Update.cshtml",
-              "ToolTip": "F:\\code\\IKTpe25-TAR--proge-I\\University\\University\\University\\Views\\course\\Update.cshtml",
-              "RelativeToolTip": "University\\Views\\course\\Update.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-06-02T11:52:29.258Z",
+              "Title": "FileToApi.cs",
+              "DocumentMoniker": "C:\\Users\\opilane\\source\\repos\\IKTpe25-TAR--proge-I\\University\\University\\University\\Models\\FileToApi.cs",
+              "RelativeDocumentMoniker": "University\\Models\\FileToApi.cs",
+              "ToolTip": "C:\\Users\\opilane\\source\\repos\\IKTpe25-TAR--proge-I\\University\\University\\University\\Models\\FileToApi.cs",
+              "RelativeToolTip": "University\\Models\\FileToApi.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAQAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-11T07:21:50.753Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "CourseCreateViewModel.cs",
-              "DocumentMoniker": "F:\\code\\IKTpe25-TAR--proge-I\\University\\University\\University\\ViewModel\\CourseCreateViewModel.cs",
-              "RelativeDocumentMoniker": "University\\ViewModel\\CourseCreateViewModel.cs",
-              "ToolTip": "F:\\code\\IKTpe25-TAR--proge-I\\University\\University\\University\\ViewModel\\CourseCreateViewModel.cs",
-              "RelativeToolTip": "University\\ViewModel\\CourseCreateViewModel.cs",
+              "Title": "ImageViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\opilane\\source\\repos\\IKTpe25-TAR--proge-I\\University\\University\\University\\ViewModel\\ImageViewModel.cs",
+              "RelativeDocumentMoniker": "University\\ViewModel\\ImageViewModel.cs",
+              "ToolTip": "C:\\Users\\opilane\\source\\repos\\IKTpe25-TAR--proge-I\\University\\University\\University\\ViewModel\\ImageViewModel.cs",
+              "RelativeToolTip": "University\\ViewModel\\ImageViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-02T11:36:04.891Z",
+              "WhenOpened": "2026-06-11T07:57:56.868Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "CourseUpdateViewModel.cs",
-              "DocumentMoniker": "F:\\code\\IKTpe25-TAR--proge-I\\University\\University\\University\\ViewModel\\CourseUpdateViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\opilane\\source\\repos\\IKTpe25-TAR--proge-I\\University\\University\\University\\ViewModel\\CourseUpdateViewModel.cs",
               "RelativeDocumentMoniker": "University\\ViewModel\\CourseUpdateViewModel.cs",
-              "ToolTip": "F:\\code\\IKTpe25-TAR--proge-I\\University\\University\\University\\ViewModel\\CourseUpdateViewModel.cs",
+              "ToolTip": "C:\\Users\\opilane\\source\\repos\\IKTpe25-TAR--proge-I\\University\\University\\University\\ViewModel\\CourseUpdateViewModel.cs",
               "RelativeToolTip": "University\\ViewModel\\CourseUpdateViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-02T11:52:39.691Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "F:\\code\\IKTpe25-TAR--proge-I\\University\\University\\University\\Views\\course\\Create.cshtml",
-              "RelativeDocumentMoniker": "University\\Views\\course\\Create.cshtml",
-              "ToolTip": "F:\\code\\IKTpe25-TAR--proge-I\\University\\University\\University\\Views\\course\\Create.cshtml",
-              "RelativeToolTip": "University\\Views\\course\\Create.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAACAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-06-02T11:33:58.113Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-02T11:52:39.691Z"
             }
           ]
         }

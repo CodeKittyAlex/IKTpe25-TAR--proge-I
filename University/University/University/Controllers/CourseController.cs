@@ -3,6 +3,8 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using University.Data;
 using University.Models;
+using University.Services;
+using University.ServicesInterface;
 using University.ViewModel;
 
 namespace University.Controllers
@@ -10,12 +12,15 @@ namespace University.Controllers
     public class CourseController : Controller
     {
         private readonly UniversityContext _context;
+        private readonly IFileservises _fileServises;
         public CourseController
             (
-                UniversityContext context
+                UniversityContext context,
+                IFileservises fileServises
             )
         {
             _context = context;
+            _fileServises = fileServises;
         }
 
         public async Task<IActionResult> Index()
@@ -93,13 +98,16 @@ namespace University.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create(CourseCreateViewModel vm)
         {
-            var course = new Course
-            {
-                CourseId = vm.CourseId,
-                Title = vm.Title,
-                Credits = vm.Credits,
-                DepartmentId = vm.DepartmentId,
-            };
+            Course course = new Course();
+
+
+            course.CourseId = vm.CourseId;
+            course.Title = vm.Title;
+            course.Credits = vm.Credits;
+            course.DepartmentId = vm.DepartmentId;
+            course.
+            _fileServises.FilesToApi(vm, course);
+            
             _context.Add(course);
             await _context.SaveChangesAsync();
 
@@ -134,6 +142,49 @@ namespace University.Controllers
                 return NotFound();
             }
             return View(course);
+        }
+        public async Task<IActionResult> Delete(int? id)
+        {
+            if (id == null || _context.Courses == null)
+            {
+                return NotFound();
+            }
+
+            var course = await _context.Courses
+                .Include(c => c.Departments)
+                .Where(c => c.CourseId == id)
+                .Select(c => new CourseDetailsViewModel
+                {
+                    CourseId = c.CourseId,
+                    Credits = c.Credits,
+                    Title = c.Title,
+                    DepartmentId = c.DepartmentId,
+                    Department = new CourseDepartmentIndexViewModel
+                    {
+                        DepartmentName = c.Departments.Name
+                    }
+                })
+                .FirstOrDefaultAsync();
+
+            if (course == null)
+            {
+                return NotFound();
+            }
+
+            return View(course);
+        }
+
+        [HttpPost, ActionName("Delete")]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> DeleteConfirmed(int id)
+        {
+            var course = await _context.Courses.FindAsync(id);
+            if (course != null)
+            {
+                _context.Courses.Remove(course);
+            }
+            await _context.SaveChangesAsync();
+            return RedirectToAction(nameof(Index));
         }
 
         private void PopulateDepartmentDropDownList(object selectedDepartment = null)
